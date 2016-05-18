@@ -10,13 +10,14 @@ var browserHistory = ReactRouter.browserHistory;
 var App = require('./components/App');
 var HomePage = require('./components/HomePage');
 var Search = require('./components/Search');
-
+var Choose = require('./components/Choose');
 
 var router = (
     <Router history={browserHistory}>
         <Route path="/" component={App}>
             <IndexRoute component={HomePage} />
             <Route path="search" component={Search} />
+            <Route path="choose" component={Choose} />
         </Route>
     </Router>
 );
