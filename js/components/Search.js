@@ -45,7 +45,7 @@ var Search = React.createClass({
                 <form>
                     <div>
                         <label>first name</label>
-                        <input value={this.state.firstName} onChange={ function(ev) {that.handleChange('firstName', ev); } } type="text"/>
+                        <input onChange={ function(ev) {that.handleChange('firstName', ev); } } type="text"/>
                     </div>
                     <div>
                         <label>last name</label>

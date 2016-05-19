@@ -1,10 +1,12 @@
 var React = require('react');
 var Link = require('react-router').Link;
+var Message = require('./Message');
 
 var App = React.createClass({
   render: function() {
     return (
       <div>
+        <Message/>
         <nav>
           <ul>
             <li><Link to="/">Home</Link></li>

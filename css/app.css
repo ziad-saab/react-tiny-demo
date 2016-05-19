@@ -26,3 +26,16 @@ footer {
 .results p {
     font-size: 20px;
 }
+
+.top-message {
+    position: fixed;
+    background-color: red;
+    color: white;
+    max-width: 300px;
+    font-size: 14px;
+    padding: 0.2em;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
